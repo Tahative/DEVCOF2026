@@ -12,6 +12,9 @@
 .logo-img{
     padding: 0;
 }
+.logo-text{
+    padding-left: 5px;
+}
 /* nav-right side end */
 
 /* nav-right middle start */
@@ -42,7 +45,7 @@
    background-color: #2664eb;
    color:white;
    margin: 10px;
-   padding: 10px 20px;    
+   padding: 10px 30px;    
    border-radius: 10px;
    border: 0px;
 }
