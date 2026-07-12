@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 20px 0;
 }
 /* nav side start */
 .logo{
@@ -29,14 +30,14 @@
     margin-top: 40px 0px;
 }
 .nav-page-btns{
-   margin: 5px;
-   padding: 5px;    
+   padding: 10px; ;
+     
 }
 .nav-page-btns:hover{
    background-color: #2664eb;
    color:white;
-   margin: 10px;
-   padding: 10px;    
+   padding: 10px;
+
    border-radius: 10px;
 }
 
@@ -46,6 +47,7 @@
 .btn{
    background-color: #2664eb;
    color:white;
+   font-weight: bold;
    margin: 10px;
    padding: 10px 30px;    
    border-radius: 10px;
@@ -55,23 +57,24 @@
 
 /* hero section start */
 .hero-container{
-    
+    background-image:linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,7)), url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+   
+   height: 100vh;
+ 
 
-}
-.banner-img{
-    width: 100%;
-}
-
-.hero-text{
+}.hero-text{
     display: flex;
     flex-direction: column;
+    align-items:center ;
     
-    height: 600px;
-    position:absolute;
+    height: 700px;
+   
     color: white;
     text-align: center;
 }
@@ -84,7 +87,22 @@
 }
 
 .hero-text2{
-   font-size: 30px;
+
+    font-size: 30px;
     font-weight: 400;
     width: 1000px;
+}
+.hero-btn{
+   background-color: #2664eb;
+   color:white;
+   margin: 10px;
+   padding: 20px 60px;    
+   border-radius: 10px;
+   border: 0px;
+   font-size: 20px;
+   font-weight: 700;
+   margin-top: 450px;
+   
+  
+   
 }
