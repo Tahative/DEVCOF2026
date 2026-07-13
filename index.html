@@ -61,9 +61,104 @@
      <section>
 
      </section>
-    <!-- meet the speakers section start -->
+    <!-- meet the speakers section end -->
+    
+    <!-- pricing section start -->
+     <section >
+        <div class="pricing-container">
+            <p class="meet-section-heading">Meet The Speakers</p>
+        </div>
 
+     </section>
+    <!-- pricing section end -->
 
+    <!-- FAQ(Something mising) section start-->
+    <section class="faq-section">
+    <div class="faq-container">
+        <h2 class="faq-heading">Frequently Asked Questions</h2>
+        <p class="faq-subheading">Everything you need to know before you register.</p>
+
+        <div class="faq-list">
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>Can I get a refund if I can't attend?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>Yes. Cancellations made before September 1, 2026 receive a full refund. After that date, we offer a 50% refund or a free transfer of your ticket to DevConf 2027.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>Is there a student or academic discount?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>Yes. Full-time students get 60% off the Standard pass with a valid .edu email or student ID. Email students@devconf2026.com after registering to apply the discount.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>Will the talks be recorded?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>All keynotes and breakout sessions are recorded. Standard passes include 30 days of digital access, while Pro passes include lifetime access to every recording.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>What's included with a Team pass?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>Team passes cover up to 10 attendees and include everything in Pro, plus a dedicated lounge, private workshop booking, your company logo on the event page, and a recruitment booth for one day.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>Do I need to bring my own laptop for workshops?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>Yes, please bring a laptop with your preferred code editor installed. Workshop materials and setup instructions will be emailed one week before the conference.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+            <span>Is the venue accessible?</span>
+            <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+            <p>Yes. The venue is fully wheelchair accessible, with accessible restrooms, reserved seating in all session rooms, and live captioning available on request.</p>
+            </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- FAQ(Something mising) section end -->
+
+    <!-- Footer section start -->
+     <section>
+     
+        
+     </section>
+     <!-- Footer section end -->
     
 </body>
 </html>
+<script>
+  document.querySelectorAll('.faq-question').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+    });
+  });
+</script>
