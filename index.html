@@ -101,11 +101,16 @@
     
     <!-- pricing section start -->
      <section >
-        <div class="pricing-container">
-            <div class="price-1">
+         <p class="price-head">Secure Your Spot</p>
+         <p class="price-subhead">Early-bird pricing ends August 15, 2026.</p>
+        <div class="price-container">        
+            <div class="plan-container">
+ 
+                <div class="price-1 plan-card-border">
                 <p class="plan">STANDARD</p>
                 <p class="price">$399</p>
                 <p class="price-subheading">per person</p>
+                <hr class="price-line">
                 <ul>
                     <li class="pricing-card-feature">Access to all 3 conference days
                         </li>
@@ -122,49 +127,53 @@
                     <button class="price-white-button">Get Standard
                         </button>
                 </ul>
+                </div>
+                <div class="price-2 plan-card-border">
+                    <p class="plan-2">PRO</p>
+                    <p class="price-diff">$749</p>
+                    <p class="price-subheading">per person</p>
+                    <hr class="price-line">
+                    <ul>
+                        <li class="pricing-card-feature">Everything in Standard
+                            </li>
+                        <li class="pricing-card-feature">Unlimited workshop access
+                            </li>
+                        <li class="pricing-card-feature">Speaker meet & greet
+                            </li>
+                        <li class="pricing-card-feature">VIP networking dinner
+                            </li>
+                        <li class="pricing-card-feature">Lifetime recording access
+                            </li>
+                        <li class="pricing-card-feature">1-on-1 mentorship (30 min)
+                            </li>
+                        <button class="price-blue-button">Get Pro
+                            </button>
+                    </ul>
+                </div>
+                <div class="price-3 plan-card-border">
+                    <p class="plan">TEAM</p>
+                    <p class="price">$599</p>
+                    <p class="price-subheading">up to 10 people
+                        </p>
+                        <hr class="price-line">
+                    <ul>
+                        <li class="pricing-card-feature">Everything in Pro (10 seats)
+                            </li>
+                        <li class="pricing-card-feature">Dedicated team lounge access
+                            </li>
+                        <li class="pricing-card-feature">Private workshop booking
+                            </li>
+                        <li class="pricing-card-feature">Company logo on event page
+                            </li>
+                        <li class="pricing-card-feature">Recruitment booth (1 day)
+                            </li>
+                        <li class="pricing-card-feature">Priority customer support
+                            </li>
+                        <button class="price-white-button">Contact Us
+                            </button>
+                    </ul>
+               </div>    
             </div>
-            <div class="price-2">
-                <p class="plan">PRO</p>
-                <p class="price">$749</p>
-                <p class="price-subheading">per person</p>
-                <ul>
-                    <li class="pricing-card-feature">Everything in Standard
-                        </li>
-                    <li class="pricing-card-feature">Unlimited workshop access
-                        </li>
-                    <li class="pricing-card-feature">Speaker meet & greet
-                        </li>
-                    <li class="pricing-card-feature">VIP networking dinner
-                        </li>
-                    <li class="pricing-card-feature">Lifetime recording access
-                        </li>
-                    <li class="pricing-card-feature">1-on-1 mentorship (30 min)
-                        </li>
-                    <button class="price-blue-button">Get Pro
-                        </button>
-                </ul>
-            </div>
-            <div class="price-3">
-                <p class="plan">TEAM</p>
-                <p class="price">$599</p>
-                <p class="price-subheading">up to 10 people
-                    </p>
-                <ul>
-                    <li class="pricing-card-feature">Everything in Pro (10 seats)
-                        </li>
-                    <li class="pricing-card-feature">Dedicated team lounge access
-                        </li>
-                    <li class="pricing-card-feature">Private workshop booking
-                        </li>
-                    <li class="pricing-card-feature">Company logo on event page
-                        </li>
-                    <li class="pricing-card-feature">Recruitment booth (1 day)
-                        </li>
-                    <li class="pricing-card-feature">Priority customer support
-                        </li>
-                    <button class="price-white-button">Contact Us
-                        </button>
-                </ul>
         </div>
      </section>
     <!-- pricing section end -->
@@ -243,606 +252,29 @@
     <!-- FAQ(Something mising) section end -->
 
     <!-- Footer section start -->
-     <section>
-     
-        
-     </section>
-     <!-- Footer section end -->
-    
-     <script>
-       document.querySelectorAll('.faq-question').forEach(function (btn) {
-         btn.addEventListener('click', function () {
-           var expanded = btn.getAttribute('aria-expanded') === 'true';
-           btn.setAttribute('aria-expanded', String(!expanded));
-         });
-       });
-     </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVCONF</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="./assets/logo-mini.png" type="Dev">
-    <!-- google font -->
-   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style>
-</head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <!-- nav right  start -->
-            <div class="logo">
-                <img src="./assets/logo.png" alt="">
+    <section class="footer-section">
+         <hr class="footer-line">
+
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="./assets/logo-mini.png" alt="">
             </div>
-            <!--  nav right end -->
-
-            <div class="nav-page-btns-container">
-                <p class="nav-page-btns">Speakers<p>
-                <p class="nav-page-btns">Schedule</p>
-                <p class="nav-page-btns">Tracks</p>
-                <p class="nav-page-btns">Blog</p>
-                <p class="nav-page-btns">Venue</p>
-
+            <div class="footer-links">
+                <p class="footer-link">Privacy Policy</p>
+                <p class="footer-link">Terms of Service</p>
+                <p class="footer-link">Help</p>
+                <p class="footer-link">Blog</p>
+                <p class="footer-link">Venue</p>
+                <p class="footer-link">Career</p>
+                <p class="footer-link">Developers</p>
             </div>
-            <!--  nav right end -->
-
-            <!--  nav left start -->
-            
-            <div>
-                
-            <button class="btn">Register Now</button>
-                
+            <div class="footer-socials">
+                <img class="f-logo" src="./assets/x.png" alt="x-logo">
+                <img class="f-logo" src="./assets/in.png" alt="linkedin-logo">
+                <img class="f-logo" src="./assets/fb.jpg" alt="facebook-logo">
             </div>
-            <!--  nav left end -->
-        </div>
-        
-    </nav>
-    
-    <!-- hero section start -->
-     <section>
-        <div class="hero-container">
-            
-            <div class="hero-text">
-                <div>
-                <p class="hero-text1">Connect. <i>Connect.</i> Create</p>
-                <p class="hero-text2">Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-                </div>
-                <button class="hero-btn">Register Now</button>
-            </div>
-        </div>
-     </section>
-    <!-- hero section start -->
-
-    <!-- meet the speakers section start -->
-     <section>
-         <p class="meet-heading">Meet The Speakers</p>
-        
-            <div class="meet-card-container">
-                    <div class="card">
-                        <img class="card-img" src="./assets/andrej.png" alt="">
-                        <div class="card-text">
-                            <p class="field">AI/ML</p>
-                            <p class="name">Andrej Karpathy</p>
-                            <p class="position">Pretraining team, Anthropic</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/demis.png" alt="">
-                        <div class="card-text">
-                            <p class="field">CLOUD & DEVOPS</p>
-                            <p class="name">Demis Hassabis</p>
-                            <p class="position">Co-Founder and CEO, Google DeepMind</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/gary.png" alt="">
-                        <div class="card-text">
-                            <p class="field">FRONTEND</p>
-                            <p class="name">Gary Marcus</p>
-                            <p class="position">Staff Engineer, Vercel</p> 
-                        </div>
-                    </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/mustafa.png" alt="">
-                    <div class="card-text">
-                        <p class="field">SECURITY</p>
-                        <p class="name">Mustafa Suleyman</p>
-                        <p class="position">CEO of Microsoft Al</p>
-                    </div>
-                </div>
-            </div>
-        
-     </section>
-    <!-- meet the speakers section end -->
-    
-    <!-- pricing section start -->
-     <section >
-        <div class="pricing-container">
-            
-        </div>
-
-     </section>
-    <!-- pricing section end -->
-
-    <!-- FAQ(Something mising) section start-->
-    <section class="faq-section">
-    <div class="faq-container">
-        <h2 class="faq-heading">Frequently Asked Questions</h2>
-        <p class="faq-subheading">Everything you need to know before you register.</p>
-
-        <div class="faq-list">
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Can I get a refund if I can't attend?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Cancellations made before September 1, 2026 receive a full refund. After that date, we offer a 50% refund or a free transfer of your ticket to DevConf 2027.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is there a student or academic discount?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Full-time students get 60% off the Standard pass with a valid .edu email or student ID. Email students@devconf2026.com after registering to apply the discount.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Will the talks be recorded?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>All keynotes and breakout sessions are recorded. Standard passes include 30 days of digital access, while Pro passes include lifetime access to every recording.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>What's included with a Team pass?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Team passes cover up to 10 attendees and include everything in Pro, plus a dedicated lounge, private workshop booking, your company logo on the event page, and a recruitment booth for one day.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Do I need to bring my own laptop for workshops?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes, please bring a laptop with your preferred code editor installed. Workshop materials and setup instructions will be emailed one week before the conference.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is the venue accessible?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. The venue is fully wheelchair accessible, with accessible restrooms, reserved seating in all session rooms, and live captioning available on request.</p>
-            </div>
-        </div>
 
         </div>
-    </div>
-    </section>
-    <!-- FAQ(Something mising) section end -->
-
-    <!-- Footer section start -->
-     <section>
-     
-        
-     </section>
-     <!-- Footer section end -->
-    
-     <script>
-       document.querySelectorAll('.faq-question').forEach(function (btn) {
-         btn.addEventListener('click', function () {
-           var expanded = btn.getAttribute('aria-expanded') === 'true';
-           btn.setAttribute('aria-expanded', String(!expanded));
-         });
-       });
-     </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVCONF</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="./assets/logo-mini.png" type="Dev">
-    <!-- google font -->
-   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style>
-</head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <!-- nav right  start -->
-            <div class="logo">
-                <img src="./assets/logo.png" alt="">
-            </div>
-            <!--  nav right end -->
-
-            <div class="nav-page-btns-container">
-                <p class="nav-page-btns">Speakers<p>
-                <p class="nav-page-btns">Schedule</p>
-                <p class="nav-page-btns">Tracks</p>
-                <p class="nav-page-btns">Blog</p>
-                <p class="nav-page-btns">Venue</p>
-
-            </div>
-            <!--  nav right end -->
-
-            <!--  nav left start -->
-            
-            <div>
-                
-            <button class="btn">Register Now</button>
-                
-            </div>
-            <!--  nav left end -->
-        </div>
-        
-    </nav>
-    
-    <!-- hero section start -->
-     <section>
-        <div class="hero-container">
-            
-            <div class="hero-text">
-                <div>
-                <p class="hero-text1">Connect. <i>Connect.</i> Create</p>
-                <p class="hero-text2">Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-                </div>
-                <button class="hero-btn">Register Now</button>
-            </div>
-        </div>
-     </section>
-    <!-- hero section start -->
-
-    <!-- meet the speakers section start -->
-     <section>
-         <p class="meet-heading">Meet The Speakers</p>
-        
-            <div class="meet-card-container">
-                    <div class="card">
-                        <img class="card-img" src="./assets/andrej.png" alt="">
-                        <div class="card-text">
-                            <p class="field">AI/ML</p>
-                            <p class="name">Andrej Karpathy</p>
-                            <p class="position">Pretraining team, Anthropic</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/demis.png" alt="">
-                        <div class="card-text">
-                            <p class="field">CLOUD & DEVOPS</p>
-                            <p class="name">Demis Hassabis</p>
-                            <p class="position">Co-Founder and CEO, Google DeepMind</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/gary.png" alt="">
-                        <div class="card-text">
-                            <p class="field">FRONTEND</p>
-                            <p class="name">Gary Marcus</p>
-                            <p class="position">Staff Engineer, Vercel</p> 
-                        </div>
-                    </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/mustafa.png" alt="">
-                    <div class="card-text">
-                        <p class="field">SECURITY</p>
-                        <p class="name">Mustafa Suleyman</p>
-                        <p class="position">CEO of Microsoft Al</p>
-                    </div>
-                </div>
-            </div>
-        
-     </section>
-    <!-- meet the speakers section end -->
-    
-    <!-- pricing section start -->
-     <section >
-        <div class="pricing-container">
-            .white-price*2>p*3+ol>li*6+
-
-        </div>
-
-     </section>
-    <!-- pricing section end -->
-
-    <!-- FAQ(Something mising) section start-->
-    <section class="faq-section">
-    <div class="faq-container">
-        <h2 class="faq-heading">Frequently Asked Questions</h2>
-        <p class="faq-subheading">Everything you need to know before you register.</p>
-
-        <div class="faq-list">
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Can I get a refund if I can't attend?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Cancellations made before September 1, 2026 receive a full refund. After that date, we offer a 50% refund or a free transfer of your ticket to DevConf 2027.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is there a student or academic discount?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Full-time students get 60% off the Standard pass with a valid .edu email or student ID. Email students@devconf2026.com after registering to apply the discount.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Will the talks be recorded?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>All keynotes and breakout sessions are recorded. Standard passes include 30 days of digital access, while Pro passes include lifetime access to every recording.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>What's included with a Team pass?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Team passes cover up to 10 attendees and include everything in Pro, plus a dedicated lounge, private workshop booking, your company logo on the event page, and a recruitment booth for one day.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Do I need to bring my own laptop for workshops?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes, please bring a laptop with your preferred code editor installed. Workshop materials and setup instructions will be emailed one week before the conference.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is the venue accessible?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. The venue is fully wheelchair accessible, with accessible restrooms, reserved seating in all session rooms, and live captioning available on request.</p>
-            </div>
-        </div>
-
-        </div>
-    </div>
-    </section>
-    <!-- FAQ(Something mising) section end -->
-
-    <!-- Footer section start -->
-     <section>
-     
-        
-     </section>
-     <!-- Footer section end -->
-    
-     <script>
-       document.querySelectorAll('.faq-question').forEach(function (btn) {
-         btn.addEventListener('click', function () {
-           var expanded = btn.getAttribute('aria-expanded') === 'true';
-           btn.setAttribute('aria-expanded', String(!expanded));
-         });
-       });
-     </script>
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEVCONF</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="./assets/logo-mini.png" type="Dev">
-    <!-- google font -->
-   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style>
-</head>
-<body>
-    <nav>
-        <div class="nav-container">
-            <!-- nav right  start -->
-            <div class="logo">
-                <img src="./assets/logo.png" alt="">
-            </div>
-            <!--  nav right end -->
-
-            <div class="nav-page-btns-container">
-                <p class="nav-page-btns">Speakers<p>
-                <p class="nav-page-btns">Schedule</p>
-                <p class="nav-page-btns">Tracks</p>
-                <p class="nav-page-btns">Blog</p>
-                <p class="nav-page-btns">Venue</p>
-
-            </div>
-            <!--  nav right end -->
-
-            <!--  nav left start -->
-            
-            <div>
-                
-            <button class="btn">Register Now</button>
-                
-            </div>
-            <!--  nav left end -->
-        </div>
-        
-    </nav>
-    
-    <!-- hero section start -->
-     <section>
-        <div class="hero-container">
-            
-            <div class="hero-text">
-                <div>
-                <p class="hero-text1">Connect. <i>Connect.</i> Create</p>
-                <p class="hero-text2">Join 4,000+ engineers, founders, and builders at the premier developer conference of 2026. Three days of cutting-edge talks, hands-on workshops, and meaningful connections.</p>
-                </div>
-                <button class="hero-btn">Register Now</button>
-            </div>
-        </div>
-     </section>
-    <!-- hero section start -->
-
-    <!-- meet the speakers section start -->
-     <section>
-         <p class="meet-heading">Meet The Speakers</p>
-        
-            <div class="meet-card-container">
-                    <div class="card">
-                        <img class="card-img" src="./assets/andrej.png" alt="">
-                        <div class="card-text">
-                            <p class="field">AI/ML</p>
-                            <p class="name">Andrej Karpathy</p>
-                            <p class="position">Pretraining team, Anthropic</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/demis.png" alt="">
-                        <div class="card-text">
-                            <p class="field">CLOUD & DEVOPS</p>
-                            <p class="name">Demis Hassabis</p>
-                            <p class="position">Co-Founder and CEO, Google DeepMind</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img" src="./assets/gary.png" alt="">
-                        <div class="card-text">
-                            <p class="field">FRONTEND</p>
-                            <p class="name">Gary Marcus</p>
-                            <p class="position">Staff Engineer, Vercel</p> 
-                        </div>
-                    </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/mustafa.png" alt="">
-                    <div class="card-text">
-                        <p class="field">SECURITY</p>
-                        <p class="name">Mustafa Suleyman</p>
-                        <p class="position">CEO of Microsoft Al</p>
-                    </div>
-                </div>
-            </div>
-        
-     </section>
-    <!-- meet the speakers section end -->
-    
-    <!-- pricing section start -->
-     <section >
-        <div class="pricing-container">
-            
-        </div>
-
-     </section>
-    <!-- pricing section end -->
-
-    <!-- FAQ(Something mising) section start-->
-    <section class="faq-section">
-    <div class="faq-container">
-        <h2 class="faq-heading">Frequently Asked Questions</h2>
-        <p class="faq-subheading">Everything you need to know before you register.</p>
-
-        <div class="faq-list">
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Can I get a refund if I can't attend?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Cancellations made before September 1, 2026 receive a full refund. After that date, we offer a 50% refund or a free transfer of your ticket to DevConf 2027.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is there a student or academic discount?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. Full-time students get 60% off the Standard pass with a valid .edu email or student ID. Email students@devconf2026.com after registering to apply the discount.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Will the talks be recorded?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>All keynotes and breakout sessions are recorded. Standard passes include 30 days of digital access, while Pro passes include lifetime access to every recording.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>What's included with a Team pass?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Team passes cover up to 10 attendees and include everything in Pro, plus a dedicated lounge, private workshop booking, your company logo on the event page, and a recruitment booth for one day.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Do I need to bring my own laptop for workshops?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes, please bring a laptop with your preferred code editor installed. Workshop materials and setup instructions will be emailed one week before the conference.</p>
-            </div>
-        </div>
-
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
-            <span>Is the venue accessible?</span>
-            <span class="faq-icon">+</span>
-            </button>
-            <div class="faq-answer">
-            <p>Yes. The venue is fully wheelchair accessible, with accessible restrooms, reserved seating in all session rooms, and live captioning available on request.</p>
-            </div>
-        </div>
-
-        </div>
-    </div>
-    </section>
-    <!-- FAQ(Something mising) section end -->
-
-    <!-- Footer section start -->
-     <section>
-     
         
      </section>
      <!-- Footer section end -->

@@ -47,7 +47,8 @@
 .btn{
    background-color: #2664eb;
    color:white;
-   font-weight: bold;
+   font-size: 20px;
+   font-weight: 400px;
    margin: 10px;
    padding: 10px 30px;    
    border-radius: 10px;
@@ -103,7 +104,7 @@
 }
 /* meet the speakers section start */
 .meet-heading{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 700;
     text-align: center;
     margin:120px 0 80px ;
@@ -117,43 +118,43 @@
     align-items: center;
 }
 
-  .card{
-    border: 1px;
-    border-radius: 20px;
-    border-color:  rgb(255, 254, 254);
-    border-top-width: 0;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    
-  }
-  .card-img{
-    padding: 0px;
-    margin: 0px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 5px, 1px, 0px 0px #e1e1e9;
-    overflow: hidden;
-    width: 100%;
+.card{
+  border: 1px;
+  border-radius: 20px;
+  border-color:  rgb(255, 254, 254);
+  border-top-width: 0;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  
+}
+.card-img{
+  padding: 0px;
+  margin: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 5px, 1px, 0px 0px #e1e1e9;
+  overflow: hidden;
+  width: 100%;
 
-  }
-  .card-text{
-    padding: 10px 10px 10px 10px;
-    margin-top: 0px;
-    border: 1px solid #e4e8ee;
-    border-top: 0;
-    box-shadow: 0px 1px 3px #e0e0e6;
-    overflow: hidden;
-    border-bottom-left-radius:20px ;
-    border-bottom-right-radius: 20px;
-    border-style: solid;
-  }
-  .field{
-    font-size: 10px;
-    font-weight: 600;
-    color: #2664eb;
-    padding: 5px 10px;
-  }
+}
+.card-text{
+  padding: 10px 10px 10px 10px;
+  margin-top: 0px;
+  border: 1px solid #e4e8ee;
+  border-top: 0;
+  box-shadow: 0px 1px 3px #e0e0e6;
+  overflow: hidden;
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius: 20px;
+  border-style: solid;
+}
+.field{
+  font-size: 10px;
+  font-weight: 600;
+  color: #2664eb;
+  padding: 5px 10px;
+}
 .name{
   font-size: 15px;
   font-weight: 600;
@@ -168,45 +169,159 @@
 }
 /* meet the speakers section end */
 /* pricing section start */
-.pricing-container{
+
+.plan-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 80px 0;
+  margin-top: 0px;
+ }  
+
+ .plan-card-border{
+  border: 1px solid #8772722b ;
+  /* border-radius: 15px; */
+  /* box-shadow: none 3px 3px 9px #e1e1e9, inset -2px -2px 5px #ffffff;
+  padding: 20px;
+  margin: 50px 20px;
+  */
+ }
+
+.price-heading-texts{
+  text-align: center;
+  margin-top: 0px;
+
 }
- .plan, .price, .price-subheading{
-  padding: 5px;
+.price-head{
+  padding-top: 80px;
+  padding-bottom: 10px;
+  margin: 0px;
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: 700;
+  color: #040404;
+  letter-spacing: 0.02em;  
 }
+.price-subhead{
+  text-align: center;
+  font-size: 1rem;
+  color: #878787;
+  margin: 0 0px 10px 10px;
+}
+.price-subheading{
+  color: #878787;
+  font-size:small ;
+  font-weight: 400;
+  padding: 0 0px 5px 0px;
+}
+
+.price{
+  font-size: 60px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.price-diff{
+  color: white;
+  font-weight: 600;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+
+.price-line{
+  margin: 15px 0 15px 0;
+}
+
+li{
+  font-size: 15px;
+  font-weight: 400;
+  color: #1a2e43;
+  padding: 5px 0px;
+  margin: 0 0 0 px;
+}
+
+
+ul, .plan, .price{
+  padding-left: 10px 5px 10px 5px;
+  text-align: left; ;
+}
+
 .plan{
+  font-size: 15px;
+  font-weight: 300;
   font-size: 20px;
   font-weight: 600;
   color: #878787;
 }
-.price{
-  
-}
-.price-1,.price-2,.price-3{ 
-  border: 1px solid #575757 ;
-  border-radius: 15px;
+
+.plan-2{
+  color:#2664eb
 }
 
 li {
   list-style: none;
   position: relative;
   padding-left: 15px;
+  
 }
 
 li::before {
   content: "";
   position: absolute;
   left: 0;
-  top: 8px;
-  width: 6px;
-  height: 6px;
+  top: 11px;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
   background-color: #3b82f6; 
-
 }
+
+.price-2{
+  background-color: #0d1b2a;
+  color: white;
+}
+.price-2 li {
+  color: white; 
+}
+
+.price-1,.price-2,.price-3{ 
+  border: 1px solid #575757 ;
+  border-radius: 15px;
+  /* box-shadow: none 3px 3px 9px #e1e1e9, inset -2px -2px 5px #ffffff; */
+  padding: 20px;
+  margin: 50px 20px;
+  height: 400px;
+  width: 300px;
+  /* background-color: #2664eb; */
+}
+
+.price-white-button{
+  background-color: white;
+  color: #2664eb;
+  font-weight: 600;
+  border: 2px solid #2664eb;
+}
+
+.price-blue-button{
+  background-color: #2664eb;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #2664eb;
+}
+.price-white-button, .price-blue-button{
+  font-size: 15px;
+  width: 250px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
+  border-radius: 10px;  
+  border: 2px solid #2664eb;
+  
+  
+}
+
 /* pricing section end  */
 
 /* FAQ(Something mising) section end  */
@@ -224,7 +339,7 @@ li::before {
   }
  
   .faq-heading {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 800;
     color: #040404;
     margin: 0 0 12px;
@@ -234,7 +349,7 @@ li::before {
   .faq-subheading {
     font-size: 1.05rem;
     color: #475569;
-    margin: 0 48px 40px;
+    margin: 0 48px 60px;
   }
  
   .faq-list {
@@ -331,3 +446,41 @@ li::before {
     }
   }
  /* FAQ(Something mising) section end  */
+
+ /* Footer section start  */
+  
+ .footer-section{
+  background-color: rgb(4, 0, 0);
+  }
+
+
+.footer-line{
+ color: #2664eb;
+}
+
+ .footer-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(4, 0, 0);
+  color:white;
+  margin-top: 40px
+ }
+ .footer-logo{
+  display: flex;
+  align-items: center;
+  color:white;
+  height: 1rem;
+  width: 1rem;
+  margin-top: 40px
+ }
+ .f-logo{
+  display: flex;
+  align-items: center;
+  color:white;
+  height: 1rem;
+  width: 1rem;
+  margin-top: 40px
+ }
+
+ /* Footer section end */
