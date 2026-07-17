@@ -6,10 +6,14 @@
     <title>DEVCONF</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="./assets/logo-mini.png" type="Dev">
+    <!-- placeholder links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- google font -->
-   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/fe7d3cec09.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <nav>
@@ -180,78 +184,211 @@
      <hr class="divider-line">
 
     <!-- FAQ(Something mising) section start-->
-    <section class="faq-section">
+        <section class="faq-section">
     <div class="faq-container">
         <h2 class="faq-heading">Frequently Asked Questions</h2>
         <p class="faq-subheading">Everything you need to know before you register.</p>
 
         <div class="faq-list">
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>Can I get a refund if I can't attend?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>Yes. Cancellations made before September 1, 2026 receive a full refund. After that date, we offer a 50% refund or a free transfer of your ticket to DevConf 2027.</p>
             </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>Is there a student or academic discount?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>Yes. Full-time students get 60% off the Standard pass with a valid .edu email or student ID. Email students@devconf2026.com after registering to apply the discount.</p>
             </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>Will the talks be recorded?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>All keynotes and breakout sessions are recorded. Standard passes include 30 days of digital access, while Pro passes include lifetime access to every recording.</p>
             </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>What's included with a Team pass?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>Team passes cover up to 10 attendees and include everything in Pro, plus a dedicated lounge, private workshop booking, your company logo on the event page, and a recruitment booth for one day.</p>
             </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>Do I need to bring my own laptop for workshops?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>Yes, please bring a laptop with your preferred code editor installed. Workshop materials and setup instructions will be emailed one week before the conference.</p>
             </div>
-        </div>
+        </details>
 
-        <div class="faq-item">
-            <button class="faq-question" aria-expanded="false">
+        <details class="faq-item">
+            <summary class="faq-question">
             <span>Is the venue accessible?</span>
-            <span class="faq-icon">+</span>
-            </button>
+            <span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path fill="rgb(37, 99, 235)" d="M434.8 70.1c14.3 10.4 17.5 30.4 7.1 44.7l-256 352c-5.5 7.6-14 12.3-23.4 13.1s-18.5-2.7-25.1-9.3l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l101.5 101.5 234-321.7c10.4-14.3 30.4-17.5 44.7-7.1z"/></svg></span>
+            </summary>
             <div class="faq-answer">
             <p>Yes. The venue is fully wheelchair accessible, with accessible restrooms, reserved seating in all session rooms, and live captioning available on request.</p>
             </div>
-        </div>
+        </details>
 
         </div>
     </div>
-    </section>
-    <!-- FAQ(Something mising) section end -->
+</section>
 
+<style>
+  .faq-section {
+    margin-top: 100px;
+    padding: 20px;
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .faq-container {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .faq-heading {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #040404;
+    margin: 0 0 12px;
+    letter-spacing: -0.02em;
+  }
+
+  .faq-subheading {
+    font-size: 1.05rem;
+    color: #475569;
+    margin: 0 48px 60px;
+  }
+
+  .faq-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .faq-item {
+    border: 2px solid #2664eb;
+    border-radius: 10px;
+    background: #ffffff;
+    overflow: hidden;
+    transition: border-color 0.2s ease;
+  }
+
+  .faq-item[open] {
+    border-color: #000102;
+  }
+
+  .faq-question {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f172a;
+    font-family: inherit;
+    list-style: none;
+  }
+
+  .faq-question::marker {
+    content: "";
+    display: none;
+  }
+
+  .faq-question::-webkit-details-marker {
+    /* display: none; */
+  }
+
+  .faq-question:focus-visible {
+    outline: 2px solid #2664eb;
+    outline-offset: -2px;
+  }
+
+  .faq-icon {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2664eb;
+    transition: transform 0.25s ease, color 0.2s ease;
+  }
+
+  /* REQUIRED: without this, the SVG has no defined size and won't
+     display correctly inside the 24x24 icon box */
+  .faq-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .faq-item[open] .faq-icon {
+    transform: rotate(45deg);
+    color: #000102;
+  }
+
+  .faq-answer {
+    display: grid;
+    grid-template-rows: 0fr;
+    padding: 0 24px;
+    transition: grid-template-rows 0.3s ease, padding 0.3s ease;
+  }
+
+  .faq-answer p {
+    overflow: hidden;
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #475569;
+  }
+
+  .faq-item[open] .faq-answer {
+    grid-template-rows: 1fr;
+    padding: 0 24px 20px;
+  }
+
+  @media (max-width: 640px) {
+    .faq-heading {
+      font-size: 2rem;
+    }
+    .faq-question {
+      padding: 16px 18px;
+      font-size: 0.95rem;
+    }
+  }
+</style>
     <!-- Footer section start -->
     <section class="footer-section">
         <div class="footer-container">
@@ -259,7 +396,7 @@
                 <div class="footer-logo-container">
                     <img src="./assets/logo.png" alt="">
                 
-                    <p><em>All in <span id="tag-line">one</span> sight.</em></p>
+                    <p><em>All</em> in <span id="tag-line">one</span> sight.</p>
                 </div>
                 
             </div>
@@ -283,18 +420,11 @@
             </div>
             
         </div>
-        
+        <hr class="copyright-devider">
         <p class="footer-copyright-text"> ©DEVCONF 2026</p>
     </section>
     <!-- Footer section end -->
     
-    <script>
-       document.querySelectorAll('.faq-question').forEach(function (btn) {
-         btn.addEventListener('click', function () {
-           var expanded = btn.getAttribute('aria-expanded') === 'true';
-           btn.setAttribute('aria-expanded', String(!expanded));
-         });
-       });
-     </script>
+    
 </body>
 </html>
