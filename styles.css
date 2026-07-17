@@ -170,6 +170,9 @@
 /* meet the speakers section end */
 /* pricing section start */
 
+.secure-section{
+  margin-top: 50px;
+}
 .plan-container{
   display: flex;
   justify-content: center;
@@ -450,21 +453,32 @@ li::before {
  /* Footer section start  */
   
  .footer-section{
-  background-color: rgb(4, 0, 0);
+  background-color: #2563eb;
+  text-align: center;
   }
 
 
-.footer-line{
- color: #2664eb;
+.divider-line{
+ color: #c7ccd5;
+ width: 50%;
+ margin: 80px  auto 0px;
+ 
 }
+.footer-logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  
 
+}
  .footer-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(4, 0, 0);
+  background-color: #2563eb;
   color:white;
   margin-top: 40px
+  
  }
  .footer-logo{
   display: flex;
@@ -472,15 +486,28 @@ li::before {
   color:white;
   height: 1rem;
   width: 1rem;
-  margin-top: 40px
- }
+  margin-top: 40px;
+  padding:40px;
+  }
+
+  #tag-line{
+  color: #010000;
+  font-weight: 600;
+  }
+
  .f-logo{
   display: flex;
+  justify-items: start;
   align-items: center;
   color:white;
   height: 1rem;
   width: 1rem;
   margin-top: 40px
+ }
+
+ .footer-copyright-text{
+  background-color: #2563eb;
+  color:white;
  }
 
  /* Footer section end */

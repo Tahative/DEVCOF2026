@@ -100,7 +100,7 @@
     <!-- meet the speakers section end -->
     
     <!-- pricing section start -->
-     <section >
+     <section class="secure-section">
          <p class="price-head">Secure Your Spot</p>
          <p class="price-subhead">Early-bird pricing ends August 15, 2026.</p>
         <div class="price-container">        
@@ -177,6 +177,7 @@
         </div>
      </section>
     <!-- pricing section end -->
+     <hr class="divider-line">
 
     <!-- FAQ(Something mising) section start-->
     <section class="faq-section">
@@ -253,33 +254,34 @@
 
     <!-- Footer section start -->
     <section class="footer-section">
-         <hr class="footer-line">
 
         <div class="footer-container">
             <div class="footer-logo">
-                <img src="./assets/logo-mini.png" alt="">
-            </div>
-            <div class="footer-links">
-                <p class="footer-link">Privacy Policy</p>
-                <p class="footer-link">Terms of Service</p>
-                <p class="footer-link">Help</p>
-                <p class="footer-link">Blog</p>
-                <p class="footer-link">Venue</p>
-                <p class="footer-link">Career</p>
-                <p class="footer-link">Developers</p>
+                <div class="footer-logo-container">
+                    <img src="./assets/logo.png" alt="">
+                    <p>All in <span id="tag-line">one</span> sight.</p>
+                </div>
+                
             </div>
             <div class="footer-socials">
                 <img class="f-logo" src="./assets/x.png" alt="x-logo">
                 <img class="f-logo" src="./assets/in.png" alt="linkedin-logo">
-                <img class="f-logo" src="./assets/fb.jpg" alt="facebook-logo">
+                <img class="f-logo" src="./assets/fb.png" alt="facebook-logo">
             </div>
-
+            <div class="footer-links">
+                    <p class="footer-link">Privacy Policy</p>
+                    <p class="footer-link">Terms of Service</p>
+                    <p class="footer-link">Career</p>
+                    <p class="footer-link">Help</p>
+                    <p class="footer-link">Contact Us</p>
+                </div>
         </div>
         
-     </section>
-     <!-- Footer section end -->
+        <p class="footer-copyright-text"> ©DEVCONF 2026</p>
+    </section>
+    <!-- Footer section end -->
     
-     <script>
+    <script>
        document.querySelectorAll('.faq-question').forEach(function (btn) {
          btn.addEventListener('click', function () {
            var expanded = btn.getAttribute('aria-expanded') === 'true';
